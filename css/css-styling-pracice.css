@@ -1,0 +1,42 @@
+html {
+  font-family: 'Nunito', sans-serif;
+  color: #333;
+  background-color: #f0f7ff;
+}
+
+h1, h2 {
+  color: #000;
+}
+
+h1 {
+  text-decoration: underline;
+  background-color: #e4ebf2;
+}
+
+h2 {
+  text-shadow:2px 2px 2px rgba(0, 0, 0, 0.178);
+}
+
+.logo {
+  background-size: cover;
+  background-image: url('https://appacademy.github.io/styleguide/assets/logo/logo-emblem-black-1000.png');
+  height: 100px;
+  width: 100px;
+}
+
+/* kg */
+.page {
+  margin-left: 1rem;
+}
+
+.content {
+  max-width: 600px;
+}
+
+.content > * {
+  margin-bottom: 2rem;
+}
+
+h2 + p {
+  margin-bottom: 3rem;
+}
