@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="ut8">
+  <title>HTML Form Practice</title>
+</head>
+
+<body>
+  <form action="/" method="post">
+    <fieldset>
+      <legend>Add user</legend>
+
+      <div>
+        <label for="firstName">First name</label>
+        <input type="text" name="first_name" id="firstName">
+      </div>
+
+      <div>
+        <label for="lastName">Last name</label>
+        <input type="text" name="last_name" id="lastName">
+      </div>
+
+      <div>
+        <label for="email">Email</label>
+        <input type="email" name="email_address" id="email">
+      </div>
+
+      <div>
+        <label for="status">Status</label>
+        <select name="status" id="status">
+          <option value="student">Student</option>
+          <option value="instructor">Instructor</option>
+          <option value="guest">Guest</option>
+        </select>
+      </div>
+
+      <p>Choose your favorite programming language</p>
+
+      <div>
+        <div>
+          <input type="radio" name="programming_language" id="HTML_option">
+          <label for="HTML_option">HTML</label>
+        </div>
+
+        <div>
+          <input type="radio" name="programming_language" id="CSS_option">
+          <label for="CSS_option">CSS</label>
+        </div>
+
+        <div>
+          <input type="radio" name="programming_language" id="JavaScript_option">
+          <label for="JavaScript_option">JavaScript</label>
+        </div>
+      </div>
+
+      <div>
+        <label for="comments">Comments</label>
+        <textarea name="comments" id="comments"></textarea>
+      </div>
+
+      <div>
+        <label for="currentDate">Current date</label>
+        <input type="date" name="current_date" id="currentDate">
+      </div>
+
+      <div>
+        <label for="newsletter">Sign up for newsletter</label>
+        <input type="checkbox" name="newsletter" id="newsletter">
+      </div>
+
+      <div>
+        <label for="termsAndConditions">Agree to terms and conditions</label>
+        <input type="checkbox" name="terms_and_conditions" id="termsAndConditions">
+      </div>
+
+      <div>
+        <button type="submit">Submit</button>
+      </div>
+    </fieldset>
+  </form>
+</body>
+
+</html>
